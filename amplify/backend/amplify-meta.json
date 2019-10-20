@@ -1,0 +1,36 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "serverlessproject-dev-20191017155528-authRole",
+			"UnauthRoleArn": "arn:aws:iam::189074469730:role/serverlessproject-dev-20191017155528-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::189074469730:role/serverlessproject-dev-20191017155528-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "serverlessproject-dev-20191017155528-deployment",
+			"UnauthRoleName": "serverlessproject-dev-20191017155528-unauthRole",
+			"StackName": "serverlessproject-dev-20191017155528",
+			"StackId": "arn:aws:cloudformation:us-east-1:189074469730:stack/serverlessproject-dev-20191017155528/b02ca4b0-f10f-11e9-a730-0e94a1882570"
+		}
+	},
+	"auth": {
+		"serverlessprojecta8fa7aca": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/serverlessproject-dev-20191017155528-deployment/amplify-cfn-templates/auth/serverlessprojecta8fa7aca-cloudformation-template.yml",
+				"logicalId": "authserverlessprojecta8fa7aca"
+			},
+			"lastPushTimeStamp": "2019-10-17T19:22:01.440Z",
+			"output": {
+				"AppClientSecret": "1hp87c682d6ibk45cv8fh80jrar9fhu6h9mlssm8lpogbftc4uv8",
+				"UserPoolId": "us-east-1_hWN4ipDvy",
+				"AppClientIDWeb": "73mpovdig0gc9v11lchjonjmil",
+				"AppClientID": "kcbbpou3eig679b64urfqotp8",
+				"IdentityPoolId": "us-east-1:698271d2-86da-438f-bf98-835096921598",
+				"IdentityPoolName": "serverlessprojecta8fa7aca_identitypool_a8fa7aca__dev",
+				"UserPoolName": "serverlessprojecta8fa7aca_userpool_a8fa7aca"
+			},
+			"lastPushDirHash": "3Cck74aR4rSzCCYzCUt8SzBaClM="
+		}
+	}
+}
